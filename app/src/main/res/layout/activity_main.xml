@@ -13,11 +13,7 @@
         <edu.xmu.autochess.autochess.FightingView
             android:id="@+id/fightingView"
             android:layout_width="1080px"
-            android:layout_height="1080px"></edu.xmu.autochess.autochess.FightingView>
-        <!--<ImageView-->
-            <!--android:layout_width="1080px"-->
-            <!--android:layout_height="1080px"-->
-            <!--android:src="@drawable/white"/>-->
+            android:layout_height="1215px"></edu.xmu.autochess.autochess.FightingView>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -99,6 +95,16 @@
                 android:layout_height="wrap_content"
                 android:text="研读棋谱"
                 android:id="@+id/upgrade"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="显示招募"
+                android:id="@+id/displayRecruit"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="招募棋子"
+                android:id="@+id/recruit"/>
         </LinearLayout>
     </LinearLayout>
 
